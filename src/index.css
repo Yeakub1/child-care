@@ -45,7 +45,7 @@ body{
   display: flex;
   list-style: none;
   text-align: center;
-  margin-right: 8rem;
+  margin-right: 6rem;
 }
 
 .nav-links {
@@ -131,3 +131,5 @@ body{
   border: 2px solid black;
   border-radius: 15px;
 }
+
+
