@@ -13,7 +13,6 @@ const Testimonial = () => {
       <div className="max-w-screen-xl px-5 mx-auto">
         <Swiper
           breakpoints={{
-            // when window width is >= 640px
             640: {
               slidesPerView: 1,
               spaceBetween: 20,
@@ -23,12 +22,10 @@ const Testimonial = () => {
               spaceBetween: 20,
             },
             1280: {
-              slidesPerView: 3,
+              slidesPerView: 2,
               spaceBetween: 50,
             },
           }}
-          // slidesPerView={1}
-          spaceBetween={30}
           freeMode={true}
           autoplay={{
             delay: 2500,
@@ -41,7 +38,7 @@ const Testimonial = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <div className="flex gap-4 shadow-2xl py-5">
+            <div className="flex gap-4 shadow-2xl py-5 px-10">
               <div className="">
                 <img className="h-16 w-16 rounded-full" src={image1} alt="" />
               </div>
@@ -58,7 +55,7 @@ const Testimonial = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex gap-4 shadow-2xl py-5">
+            <div className="flex gap-4 shadow-2xl py-5 px-10">
               <div className="">
                 <img className="h-16 w-16 rounded-full" src={image1} alt="" />
               </div>
@@ -75,7 +72,7 @@ const Testimonial = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex gap-4 shadow-2xl py-5">
+            <div className="flex gap-4 shadow-2xl py-5 px-10">
               <div className="">
                 <img className="h-16 w-16 rounded-full" src={image1} alt="" />
               </div>
@@ -92,7 +89,7 @@ const Testimonial = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex gap-4 shadow-2xl py-5">
+            <div className="flex gap-4 shadow-2xl py-5 px-10">
               <div className="">
                 <img className="h-16 w-16 rounded-full" src={image1} alt="" />
               </div>
@@ -109,7 +106,7 @@ const Testimonial = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex gap-4 shadow-2xl py-5">
+            <div className="flex gap-4 shadow-2xl py-5 px-10">
               <div className="">
                 <img className="h-16 w-16 rounded-full" src={image1} alt="" />
               </div>
@@ -126,7 +123,7 @@ const Testimonial = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex gap-4 shadow-2xl py-5">
+            <div className="flex gap-4 shadow-2xl py-5 px-10">
               <div className="">
                 <img className="h-16 w-16 rounded-full" src={image1} alt="" />
               </div>
