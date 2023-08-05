@@ -13,6 +13,7 @@ body{
 
 }
 
+/* start navbar  */
 .navbar {
   background-color:#1F2B40;
 ;
@@ -127,9 +128,11 @@ body{
     color: #ffdd40;
   }
 }
+
+/* end navabar */
 .card-body{
   border: 2px solid black;
   border-radius: 15px;
 }
 
-
+/* swiper slider */
