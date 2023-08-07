@@ -14,7 +14,7 @@ const Banner = () => {
         <div className="hero-content text-center text-neutral-content">
           <div className="">
             <h1 className="mb-5 text-5xl font-bold">
-              <h1>Welcome to Our</h1>
+              <h1>Welcome to</h1>
               <h1 className="text-[#fbb44d] mt-7">Academy for Bright Children</h1>
             </h1>
             <p className="mb-5">
