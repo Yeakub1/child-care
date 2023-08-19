@@ -15,14 +15,19 @@ const Banner = () => {
           <div className="">
             <h1 className="mb-5 text-5xl font-bold">
               <h1>Welcome to</h1>
-              <h1 className="text-[#fbb44d] mt-7">Academy for Bright Children</h1>
+              <h1 className="text-[#fbb44d] mt-7">
+                ABC Early Learning Daycare Center
+              </h1>
             </h1>
+            <p className="mt-2 text-xl mb-3">Smart Children For Smart Society</p>
             <p className="mb-5">
-              Fusce pretium, est at aliquam semper, leo ante facilisis risus in
-              feugiat ipsum augue pellent esque metu at luctus metus, non ornare
-              lectus ac ipsum convallis fermentum ante a suscipit nunc. Etiam
-              non scelerisque loren ornare dapibus libero sit amet facil sodales
-              rutrum .
+              Our Philosophy stands for our values and beliefs. ABC Early
+              Learning Daycare Center is highly concerned about ensuring
+              comfort, safety and security for our children. We focus on
+              individual needs, interests and abilities with a view to implement
+              student centric approach. At our center, all children are treated
+              equally and with respect, regardless of race, religion, language,
+              ability or gender.
             </p>
           </div>
         </div>
