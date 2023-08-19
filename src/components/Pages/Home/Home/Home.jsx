@@ -5,7 +5,7 @@ import CountUps from '../CountUp/CountUp';
 import Care from '../Care/Care';
 import Testimonial from '../Testimonial/Testimonial';
 import Activities from '../Activities/Activities';
-import GoToTop from '../GoToTop/GoToTop';
+import GoToTop from '../../../Shared/GoToTop/GoToTop';
 
 const Home = () => {
     return (

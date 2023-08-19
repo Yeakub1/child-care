@@ -16,7 +16,7 @@ const Contact = () => {
       <div className="bg-slate-200">
         <div className="max-w-screen-xl px-5 mx-auto pt-5 pb-10">
           <div className="">
-            <form onSubmit={handleSubmit(onSubmit)} className="card-body">
+            <form onSubmit={handleSubmit(onSubmit)} className="card-body contact-form">
               <div className="grid lg:grid-cols-2 gap-10">
                 <div className="form-control">
                   <label className="label">

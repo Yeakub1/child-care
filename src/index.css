@@ -130,7 +130,7 @@ body{
 }
 
 /* end navabar */
-.card-body{
+.contact-form{
   border: 2px solid black;
   border-radius: 15px;
 }
@@ -151,3 +151,12 @@ body{
     transform: rotate(360deg);
   }
 }
+
+/* end home page */
+/* ============================= */
+
+/*start about page */
+.ab-icon{
+  border: 2px solid black;
+}
+
