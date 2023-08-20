@@ -21,7 +21,7 @@ const Footer = () => {
           <h1 className="text-xl font-bold">Quick Links</h1>
           <div className="mt-5">
             <h1>
-              <Link to="home">Home</Link>
+              <Link to="/">Home</Link>
             </h1>
             <h1 className="mt-3">
               <Link to="about">About</Link>

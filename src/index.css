@@ -135,8 +135,8 @@ body{
   border-radius: 15px;
 }
 
-/* annimatin */
 
+/* annimatin */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 10s linear;
@@ -160,3 +160,8 @@ body{
   border: 2px solid black;
 }
 
+/* services page code */
+
+.rotated-border {
+  border: 2px dotted #ffdd40;
+}

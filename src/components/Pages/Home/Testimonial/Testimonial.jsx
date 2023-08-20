@@ -40,7 +40,11 @@ const Testimonial = () => {
           <SwiperSlide>
             <div className="flex gap-4 shadow-2xl py-5 px-10">
               <div className="">
-                <img className="h-16 w-16 rounded-full" src={image1} alt="" />
+                <img
+                  className="h-16 w-16 rounded-full"
+                  src={image1}
+                  alt="image"
+                />
               </div>
               <div className="w-[70%]">
                 <p>
@@ -57,7 +61,11 @@ const Testimonial = () => {
           <SwiperSlide>
             <div className="flex gap-4 shadow-2xl py-5 px-10">
               <div className="">
-                <img className="h-16 w-16 rounded-full" src={image1} alt="" />
+                <img
+                  className="h-16 w-16 rounded-full"
+                  src={image1}
+                  alt="image"
+                />
               </div>
               <div className="w-[70%]">
                 <p>
@@ -74,7 +82,11 @@ const Testimonial = () => {
           <SwiperSlide>
             <div className="flex gap-4 shadow-2xl py-5 px-10">
               <div className="">
-                <img className="h-16 w-16 rounded-full" src={image1} alt="" />
+                <img
+                  className="h-16 w-16 rounded-full"
+                  src={image1}
+                  alt="image"
+                />
               </div>
               <div className="w-[70%]">
                 <p>
@@ -91,7 +103,11 @@ const Testimonial = () => {
           <SwiperSlide>
             <div className="flex gap-4 shadow-2xl py-5 px-10">
               <div className="">
-                <img className="h-16 w-16 rounded-full" src={image1} alt="" />
+                <img
+                  className="h-16 w-16 rounded-full"
+                  src={image1}
+                  alt="image"
+                />
               </div>
               <div className="w-[70%]">
                 <p>
@@ -108,7 +124,11 @@ const Testimonial = () => {
           <SwiperSlide>
             <div className="flex gap-4 shadow-2xl py-5 px-10">
               <div className="">
-                <img className="h-16 w-16 rounded-full" src={image1} alt="" />
+                <img
+                  className="h-16 w-16 rounded-full"
+                  src={image1}
+                  alt="image"
+                />
               </div>
               <div className="w-[70%]">
                 <p>
@@ -125,7 +145,11 @@ const Testimonial = () => {
           <SwiperSlide>
             <div className="flex gap-4 shadow-2xl py-5 px-10">
               <div className="">
-                <img className="h-16 w-16 rounded-full" src={image1} alt="" />
+                <img
+                  className="h-16 w-16 rounded-full"
+                  src={image1}
+                  alt="image"
+                />
               </div>
               <div className="w-[70%]">
                 <p>

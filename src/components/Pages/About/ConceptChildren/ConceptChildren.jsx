@@ -1,7 +1,11 @@
 import React from "react";
 import image from "../../../../assets/images/about.webp";
+import { useLocation } from "react-router-dom";
+import UseScrollTop from "../../../Shared/UseScrollTop/UseScrollTop";
 
 const ConceptChildren = () => {
+  const { pathname } = useLocation();
+  UseScrollTop(pathname);
   return (
     <div className="max-w-screen-xl mx-auto px-5 mt-12">
       <div className="grid md:grid-cols-2 justify-between ">
@@ -69,7 +73,7 @@ const ConceptChildren = () => {
             className="md:float-right md:w-auto w-full rounded-md"
             src={image}
             draggable="false"
-            alt=""
+            alt="images"
           />
         </div>
       </div>

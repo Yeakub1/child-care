@@ -26,7 +26,7 @@ const Gallery = () => {
                 key={i}
                 src={image}
                 style={{ width: "100%", display: "block" }}
-                alt=""
+                alt="images"
               />
             </LazyLoad>
           ))}

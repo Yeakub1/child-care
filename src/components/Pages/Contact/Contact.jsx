@@ -1,8 +1,14 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-
+import { useLocation } from "react-router-dom";
+import UseScrollTop from "../../Shared/UseScrollTop/UseScrollTop";
+import GoToTop from "../../Shared/GoToTop/GoToTop";
 
 const Contact = () => {
+
+  const { pathname } = useLocation();
+  UseScrollTop(pathname);
+
   const {
     register,
     reset,
@@ -89,6 +95,7 @@ const Contact = () => {
             </form>
           </div>
         </div>
+        <GoToTop/>
       </div>
     );
 };
