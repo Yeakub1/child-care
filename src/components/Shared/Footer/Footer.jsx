@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -43,31 +43,38 @@ const Footer = () => {
             <div className="flex items-center gap-5 mt-5 text-lg ">
               <a
                 className="rounded-full p-2 bg-[#1F2B40] hover:bg-[#4267B2] text-white"
-                href=""
+                href="https://www.facebook.com/abcdaycarebd"
                 target="_blank"
               >
                 <FaFacebook />
               </a>
               <a
                 className="rounded-full p-2 bg-[#1F2B40] hover:bg-[#833AB4] text-white"
-                href=""
+                href="https://twitter.com/abcdaycarebd"
                 target="_blank"
               >
                 <FaInstagram />
               </a>
               <a
                 className="rounded-full p-2 bg-[#1F2B40] hover:bg-[#1DA1F2] text-white"
-                href=""
+                href="https://twitter.com/abcdaycarebd"
                 target="_blank"
               >
                 <FaTwitter />
               </a>
               <a
                 className="rounded-full p-2 bg-[#1F2B40] hover:bg-[#0e76a8] text-white"
-                href=""
+                href="https://www.linkedin.com/abcdaycarebd/"
                 target="_blank"
               >
                 <FaLinkedin />
+              </a>
+              <a
+                className="rounded-full p-2 bg-[#1F2B40] hover:bg-red-600 text-white"
+                href="https://www.youtube.com/channel/UCSNSXsoNnwFkOBtirPPNNYg"
+                target="_blank"
+              >
+                <FaYoutube />
               </a>
             </div>
           </div>

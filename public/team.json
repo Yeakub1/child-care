@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "name": "Sonia Akram",
+    "title": "Founder & Director",
+    "images": "https://i.ibb.co/R0431PC/founder-f9b17a7d.jpg",
+    "description": "Sonia Akram is Founder and Director of ABC Early Learning Daycare Center (since 2017) and also a Founder Member of Shonar Tori (Child and Adolescent club). She is successfully running ABC Elementary School since 2020 (online platform). She did certificate III and Diploma in Early Childhood Development while staying in Australia. She completed her graduation in International Relations (IR) from Dhaka University. She is an Early Childhood Development and Education Specialist and has been working in this specific sector since 2008 while her stay in Australia. She has also been involved with ‘We Foundation’ in Dhaka, Bangladesh and serving the slum area (underprivileged children) since 2009 to support their ongoing primary education from Australia. While working in Australia she continued doing courses, training and workshops on Children Behaviour Management, Asthma and Anaphylaxis Management and Early Year Learning Framework (EYLF). She has also received ‘Certified Centre Supervisor/ Acting Director’ certificate in Australia for early childhood and childcare centres. She has been awarded for the best early childhood educator from renowned Early Learning Childcare Centre in 2010. In Bangladesh she completed “Advance certificate course for supervisors and managers for child care centre” from Brac IED. She also achieved Certificate on ‘Early Intervention on Applied Behavioural Analysis’ from Dhaka University. She is experienced on handling ADHD and Special Need Children (Special Workshop from INDR and BSMMU, Bangladesh) in both Bangladesh and Australia. Sonia Akram has been developing her own training modules for last couple of years and also started providing training to other centers in the community for a significant impact in the daycare industry in Bangladesh. Sonia Akram has been selected from her venture, ABC Early Learning Daycare Centrer for the best 18 Entrepreneurs in Bangladesh by Ygap Australia (INGO) for their acceleration program in 2019. After a great success at Niketon, Gulshan 1 with ABC Early Learning Daycare Center, she has opened her second branch in ‘Dhanmondi 6’ in March, 2021 and also opened a third branch at Niketon, Gulshan 1 in November, 2021 to meet the ongoing growing demand. She has been also working with multinational companies and corporates to support their in-house childcare centers in Dhaka. In five year time, she has successfully partnered with American Standard International School (ASIS) to run her fifth center located at Gulshan 2, Dhaka. She has been chosen by Brac IED to participate as a regular guest speaker at their childcare courses. She has been also invited at different TV channels for her expert opinion on early childhood development and education. She believes that smart children can make a smart society. She has been working closely with children and families in the community to create a foundation or platform for the children to enter the primary or higher education as a lifelong learner and critical thinking citizen."
+  },
+  {
+    "id": 2,
+    "name": "Zakia Yesmin",
+    "title": "Coordinator",
+    "images": "https://i.ibb.co/GnRQ8H1/Coordinator-9c33d88c.jpg",
+    "description": "Mrs. Zakia Yesmin Leena is our Coordinator. She has been in the industry for 8 years. She loves to involve herself in the Early Childhood Development Education process where children learn through playing. She has completed her Masters Degree from Home Economics. She has spent most of her career with ABC and she is proud of it. Mrs. Leena is trained on – ✔ ADHD Children Management",
+    "point":{
+        "one": "✔ ADHD Children Management",
+        "two": "✔ Special Child Speech & Language Therapy",
+        "three": "✔ Childhood Development Education & Care",
+        "four": "✔ First Aid"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Afnan Sultana Prache",
+    "title": "Supervisor",
+    "images": "https://i.ibb.co/vhDNRXd/Supervisor-1-e2299667.jpg",
+    "description": "Afnan Sultana Prache is our Pre-school teacher & Supervisor of Niketon 2 centre. She is a new member in ABC but has already shown her passion to develop a relationship with each of the children and their parents . She has completed her B.Sc degree in Child development and Social Relationship from Govt. College of Applied Human Science and now her Master’s is ongoing in the aforementioned subject. Apart from this, she has accomplished internship at SWID Bangladesh(Society for the Welfare of the Intellectually Disabled, Bangladesh) and workshop on autism from National Autism Foundation. She was also with different NGO’s as a volunteer. She is at present working with ABC as she loves working with children and watching them grow and thrive."
+  },
+  {
+    "id": 4,
+    "name": "Naz E Zabin",
+    "title": "Supervisor",
+    "images": "https://i.ibb.co/k31Jd6j/Supervisor2-304f71b3.jpg",
+    "description": "Miss Naz is one of our lead teachers and Supervisor of Niketon center 1. Alongside, she is coordinating the preschool sector of ABC. She has been with ABC for more than 3 years. She has been currently doing her Bachelors of Arts in English from BRAC University. Miss Naz is trained on ELT from BRAC Currently. She is working on Language skill development and ESL development of the students at their early years by using thematic activities. She designs and coordinates preschool lesson plans. She also handles the Graphic Resources and module/content writing part of the center. Miss Naz has chosen to work here part time beside her study for she is very passionate about working with children"
+  }
+]

@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import { useLocation } from "react-router-dom";
 import UseScrollTop from "../../Shared/UseScrollTop/UseScrollTop";
 import GoToTop from "../../Shared/GoToTop/GoToTop";
+import GoogleMap from "./GoogleMap";
 
 const Contact = () => {
 
@@ -95,7 +96,8 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        <GoToTop/>
+        <GoToTop />
+        <GoogleMap/>
       </div>
     );
 };

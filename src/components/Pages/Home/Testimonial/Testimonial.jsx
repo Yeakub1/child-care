@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, FreeMode, Pagination } from "swiper/modules";
-import image1 from '../../../../assets/images/page banner.png'
+import image1 from '../../../../assets/images/Kids2.png'
 
 const Testimonial = () => {
   return (
