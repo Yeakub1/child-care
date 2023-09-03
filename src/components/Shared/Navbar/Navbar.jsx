@@ -8,10 +8,10 @@ function Navbar() {
   const handleClick = () => setClick(!click);
   return (
     <>
-      <nav className="navbar">
+      <nav className="navbar banner">
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
-           <img className="h-16 md:ml-[8rem]" src={logo} alt="logo"  />
+            <img className="h-16 md:ml-[8rem]" src={logo} alt="logo" />
           </NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>

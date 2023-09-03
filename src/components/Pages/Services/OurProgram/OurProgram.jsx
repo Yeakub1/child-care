@@ -7,7 +7,7 @@ const OurProgram = () => {
       const { pathname } = useLocation();
       UseScrollTop(pathname);
     return (
-      <div className="bg-[#1F2B40] text-white">
+      <div className="banner text-white">
         <div className="max-w-screen-xl px-5 mx-auto pt-12 pb-12">
           <div className="">
             <p className="text-yellow-400">Our Program</p>

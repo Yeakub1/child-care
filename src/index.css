@@ -7,16 +7,9 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
-/* home page hero section */
-.hero{
-  background-size: 100% 100%;
-
-}
-
 /* start navbar  */
 .navbar {
   background-color:#1F2B40;
-;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -101,7 +94,7 @@ body{
   }
 
   .nav-menu.active {
-    background: #1F2B40;
+   background-image: linear-gradient(to right, #0090E4 0%, #1b18a1 100%);  
     left: 0px;
     opacity: 1;
     transition: all 0.5s ease;
@@ -128,15 +121,9 @@ body{
     color: #ffdd40;
   }
 }
-
 /* end navabar */
-.contact-form{
-  border: 2px solid black;
-  border-radius: 15px;
-}
 
-
-/* annimatin */
+/*home page annimatin */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 10s linear;
@@ -152,6 +139,10 @@ body{
   }
 }
 
+.count-up{
+    background-image: linear-gradient(to right, #0090E4 0%, #1b18a1 100%);  
+}
+
 /* end home page */
 /* ============================= */
 
@@ -165,3 +156,10 @@ body{
 .rotated-border {
   border: 2px dotted #ffdd40;
 }
+
+/* contact page code */
+.contact-form{
+  border: 2px solid black;
+  border-radius: 15px;
+}
+

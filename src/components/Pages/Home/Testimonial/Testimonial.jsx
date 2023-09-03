@@ -9,7 +9,7 @@ import image1 from '../../../../assets/images/Kids2.png'
 
 const Testimonial = () => {
   return (
-    <div className="bg-[#1F2B40] text-white py-20 mt-16">
+    <div className="py-20 ">
       <div className="max-w-screen-xl px-5 mx-auto">
         <Swiper
           breakpoints={{

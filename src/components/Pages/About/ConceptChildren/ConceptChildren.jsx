@@ -62,7 +62,7 @@ const ConceptChildren = () => {
                 <span className=" ab-icon px-4 bg-white rounded-full p-2 mr-5">
                   5
                 </span>
-                <span className="font-bold"> Over 1 000</span>
+                <span className="font-bold"> Over 1000</span>
                 visitors for the last year
               </h1>
             </div>

@@ -1,6 +1,5 @@
 import React from "react";
 import image from "../../../../assets/images/services-2.jpg";
-import { BsPatchCheckFill } from "react-icons/bs";
 import ServicePoint from "../../../utility/ServicePoint";
 
 const Innovative = () => {
