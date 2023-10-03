@@ -39,13 +39,13 @@ const Testimonial = () => {
             {reviews.map((review) => (
               <div
                 key={review._id}
-                className="card w-80 md:w-[700px] bg-white shadow-xl "
+                className="card w-60 h-80 md:w-[700px] bg-white shadow-xl"
               >
                 <h2 className="text-4xl md:text-7xl pl-8 pt-8 text-[#1BBF72]">
                   <BiSolidQuoteLeft />
                 </h2>
                 <div className="px-6 md:px-10 ">
-                  <p className="text-xs md:text-base font-JosefinSans text-center h-24 md:h-24 ">
+                  <p className="text-xs md:text-base font-JosefinSans text-center h-full ">
                     {review.feedback}
                   </p>
                 </div>

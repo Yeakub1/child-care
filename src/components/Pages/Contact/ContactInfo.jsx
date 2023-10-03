@@ -8,7 +8,7 @@ const ContactInfo = () => {
       <div className="max-w-screen-xl rounded-xl px-5 mx-auto my-10 bg-[#02B890] text-white p-10">
         <div className="grid md:grid-cols-4 justify-evenly">
           <div className="text-center">
-            <div className="border-r-white border-r-2">
+            <div className="md:border-r-white md:border-r-2 mt-10 md:mt-0">
               <button className="banner rounded-full p-5 text-3xl text-white ">
                 <LuMapPin />
               </button>
@@ -19,7 +19,7 @@ const ContactInfo = () => {
               </div>
             </div>
           </div>
-          <div className="text-center border-r-white border-r-2">
+          <div className="text-center md:border-r-white md:border-r-2 mt-10 md:mt-0">
             <div className="">
               <button className="banner rounded-full p-5 text-3xl text-white ">
                 <MdEmail />
@@ -30,7 +30,7 @@ const ContactInfo = () => {
               </div>
             </div>
           </div>
-          <div className="text-center border-r-white border-r-2">
+          <div className="text-center md:border-r-white md:border-r-2 mt-10 md:mt-0">
             <div className="">
               <button className="banner rounded-full p-5 text-3xl text-white ">
                 <MdCall />
@@ -42,7 +42,7 @@ const ContactInfo = () => {
             </div>
           </div>
 
-          <div className="text-center">
+          <div className="text-center mt-10 md:mt-0">
             <div className="">
               <button className="banner rounded-full p-5 text-3xl text-white ">
                 <GiAlarmClock />
