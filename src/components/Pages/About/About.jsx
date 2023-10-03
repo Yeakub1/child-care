@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div>
       <Helmet>
-        <title>Academy for Bright Children | About</title>
+        <title>ABC | About</title>
       </Helmet>
 
       <ConceptChildren />

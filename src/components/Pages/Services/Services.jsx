@@ -9,7 +9,7 @@ const Services = () => {
   return (
     <div>
       <Helmet>
-        <title>Academy for Bright Children | Services</title>
+        <title>ABC | Services</title>
       </Helmet>
 
       <OurProgram />

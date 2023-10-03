@@ -9,9 +9,9 @@ const Contact = () => {
   return (
     <div>
       <Helmet>
-        <title>Academy for Bright Children | Contact</title>
+        <title>ABC | Contact</title>
       </Helmet>
-      
+
       <ContactInfo />
       <ContuctForm />
       <GoToTop />

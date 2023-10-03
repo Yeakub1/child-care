@@ -39,7 +39,7 @@ const Testimonial = () => {
             {reviews.map((review) => (
               <div
                 key={review._id}
-                className="card w-60 md:w-[700px] bg-white shadow-xl "
+                className="card w-80 md:w-[700px] bg-white shadow-xl "
               >
                 <h2 className="text-4xl md:text-7xl pl-8 pt-8 text-[#1BBF72]">
                   <BiSolidQuoteLeft />
@@ -49,7 +49,7 @@ const Testimonial = () => {
                     {review.feedback}
                   </p>
                 </div>
-                <div className=" border-t-2 border-t-[#1bbf7241] mt-6  md:mt-2"></div>
+                <div className="border-t-2 border-t-[#1bbf7241] mt-6  md:mt-2"></div>
                 <div className="px-6 md:px-10  my-6 flex justify-between items-center">
                   <div className="flex items-center gap-5 mb-2  md:mb-4">
                     <img
