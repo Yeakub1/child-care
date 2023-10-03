@@ -1,7 +1,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import { useLocation } from "react-router-dom";
-import UseScrollTop from "../../Shared/UseScrollTop/UseScrollTop";
+import UseScrollTop from "../../Shared/UseScrollTop";
 
 const ContuctForm = () => {
   const { pathname } = useLocation();
@@ -17,8 +17,8 @@ const ContuctForm = () => {
   const onSubmit = (data) => console.log(data);
 
   return (
-    <div className="bg-slate-200">
-      <div className="max-w-screen-xl px-5 mx-auto pt-5 pb-10">
+    <div className="">
+      <div className="max-w-screen-xl px-5 mx-auto pt-5 pb-10 bg-slate-200 rounded-2xl">
         <div className="">
           <form
             onSubmit={handleSubmit(onSubmit)}
@@ -87,11 +87,7 @@ const ContuctForm = () => {
               )}
             </div>
             <div className="form-control mt-6">
-              <input
-                className="btn bg-blue-700 text-white hover:bg-blue-800"
-                type="submit"
-                value="Send Message"
-              />
+              <input className="button" type="submit" value="Send Message" />
             </div>
           </form>
         </div>

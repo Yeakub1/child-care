@@ -2,9 +2,7 @@ import React, { useState } from "react";
 
 const ReadMorText = ({ children, maxChars = 300 }) => {
   const [expanded, setExpanded] = useState(false);
-
   if (children.length <= maxChars) return <p>{children}</p>;
-
   const text = expanded ? children : children.substring(0, maxChars);
 
   return (

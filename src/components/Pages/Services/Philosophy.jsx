@@ -1,6 +1,6 @@
 import React from "react";
-import image from "../../../../assets/images/services-1.jpg";
-import ServicePoint from "../../../utility/ServicePoint";
+import image from "../../../assets/images/services-1.jpg";
+import ServicePoint from "../../utility/ServicePoint";
 
 const Philosophy = () => {
   return (
@@ -22,7 +22,7 @@ const Philosophy = () => {
             following Australian Standard Curriculum. Our Montessori approach
             prepares our children to become confident, independent and active
             members of our society. We believe that Smart Children can give us a
-            Smart Society in the future.{" "}
+            Smart Society in the future.
           </p>
           <h1 className="mt-9 text-xl font-semibold">Philosophies:</h1>
           <ServicePoint

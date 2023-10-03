@@ -1,19 +1,18 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from '../../../assets/images/logo.png'
+import logo from '../../assets/images/logo.png'
+import Headroom from "react-headroom";
 
 function Navbar() {
   const [click, setClick] = useState(false);
-
   const handleClick = () => setClick(!click);
   return (
-    <>
-      <nav className="navbar banner">
+    <Headroom className="">
+      <nav className="navbar z-50">
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
             <img className="h-16 md:ml-[8rem]" src={logo} alt="logo" />
           </NavLink>
-
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <NavLink
@@ -65,7 +64,7 @@ function Navbar() {
           </div>
         </div>
       </nav>
-    </>
+    </Headroom>
   );
 }
 

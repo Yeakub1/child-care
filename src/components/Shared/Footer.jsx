@@ -4,12 +4,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react
 
 const Footer = () => {
   return (
-    <div
-      style={{
-        backgroundImage: "url(https://i.ibb.co/16B1rFp/footer-img.png)",
-      }}
-      className="text-white"
-    >
+    <div>
       <div className="max-w-screen-xl px-5 mx-auto pt-36 ">
         <div className="grid md:grid-cols-3 gap-10">
           <div className="">
@@ -48,35 +43,35 @@ const Footer = () => {
               <p className="mt-3">+88 01739 588 788</p>
               <div className="flex items-center gap-5 mt-5 text-lg ">
                 <a
-                  className="rounded-full p-2 bg-[#1F2B40] hover:bg-[#4267B2] text-white"
+                  className="rounded-full p-2 bg-[#4267B2] text-white"
                   href="https://www.facebook.com/abcdaycarebd"
                   target="_blank"
                 >
                   <FaFacebook />
                 </a>
                 <a
-                  className="rounded-full p-2 bg-[#1F2B40] hover:bg-[#833AB4] text-white"
+                  className="rounded-full p-2 bg-[#833AB4] text-white"
                   href="https://twitter.com/abcdaycarebd"
                   target="_blank"
                 >
                   <FaInstagram />
                 </a>
                 <a
-                  className="rounded-full p-2 bg-[#1F2B40] hover:bg-[#1DA1F2] text-white"
+                  className="rounded-full p-2 bg-[#1DA1F2] text-white"
                   href="https://twitter.com/abcdaycarebd"
                   target="_blank"
                 >
                   <FaTwitter />
                 </a>
                 <a
-                  className="rounded-full p-2 bg-[#1F2B40] hover:bg-[#0e76a8] text-white"
+                  className="rounded-full p-2 bg-[#0e76a8] text-white"
                   href="https://www.linkedin.com/abcdaycarebd/"
                   target="_blank"
                 >
                   <FaLinkedin />
                 </a>
                 <a
-                  className="rounded-full p-2 bg-[#1F2B40] hover:bg-red-600 text-white"
+                  className="rounded-full p-2 bg-red-600 text-white"
                   href="https://www.youtube.com/channel/UCSNSXsoNnwFkOBtirPPNNYg"
                   target="_blank"
                 >

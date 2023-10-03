@@ -1,35 +1,23 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import ContuctForm from "./ContuctForm";
-import GoToTop from "../../Shared/GoToTop/GoToTop";
+import GoToTop from "../../Shared/GoToTop";
 import GoogleMap from "./GoogleMap";
-import Loading from "../../Shared/Loading/Loading";
 import { Helmet } from "react-helmet-async";
+import ContactInfo from "./ContactInfo";
 
 const Contact = () => {
- const [isLoading, setIsLoading] = useState(true);
- useEffect(() => {
-   setTimeout(() => {
-     setIsLoading(false);
-   }, 2500);
- }, []);
-
-
-    return (
-      <>
-        <Helmet>
-          <title>Academy for Bright Children | Contact</title>
-        </Helmet>
-        {isLoading ? (
-          <Loading />
-        ) : (
-          <>
-            <ContuctForm />
-            <GoToTop />
-            <GoogleMap />
-          </>
-        )}
-      </>
-    );
+  return (
+    <div>
+      <Helmet>
+        <title>Academy for Bright Children | Contact</title>
+      </Helmet>
+      
+      <ContactInfo />
+      <ContuctForm />
+      <GoToTop />
+      <GoogleMap />
+    </div>
+  );
 };
 
 export default Contact;
