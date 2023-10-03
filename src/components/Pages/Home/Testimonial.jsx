@@ -20,16 +20,10 @@ const Testimonial = () => {
   };
 
   useEffect(() => {
-    // Fetch the JSON data
-    fetch(
-      "https://cm-academy-test-server-production.up.railway.app/ratingAndFeedback"
-    )
-      .then((response) => response.json())
-      .then((data) => setReviews(data))
-      .catch((error) => console.error("Error fetching blogs:", error));
+    fetch("review.json")
+      .then((res) => res.json())
+      .then((data) => setReviews(data));
   }, []);
-
-  console.log(reviews);
 
   const myStyles = {
     itemShapes: StickerStar,
@@ -48,12 +42,9 @@ const Testimonial = () => {
                 className="card w-60 md:w-[700px] bg-white shadow-xl "
               >
                 <h2 className="text-4xl md:text-7xl pl-8 pt-8 text-[#1BBF72]">
-                  <BiSolidQuoteLeft></BiSolidQuoteLeft>{" "}
+                  <BiSolidQuoteLeft />
                 </h2>
                 <div className="px-6 md:px-10 ">
-                  <h2 className="font-bold text-md font md:text-xl text-center my-1 md:my-3 ">
-                    {review.courseTitle}
-                  </h2>
                   <p className="text-xs md:text-base font-JosefinSans text-center h-24 md:h-24 ">
                     {review.feedback}
                   </p>
@@ -62,13 +53,14 @@ const Testimonial = () => {
                 <div className="px-6 md:px-10  my-6 flex justify-between items-center">
                   <div className="flex items-center gap-5 mb-2  md:mb-4">
                     <img
-                      className="w-10 h-10  md:w-14 md:h-14 rounded-full"
-                      src={review.studentImage}
-                      alt=""
+                      className="w-10 h-10 md:w-14 md:h-14 rounded-full"
+                      src="https://i.ibb.co/kMd7qVq/images.jpg"
+                      alt="parants images"
+                      draggable='false'
                     />
                     <div>
                       <h1 className="text-sm font-bold mb-2">
-                        {review.studentName}
+                        {review.parents}
                       </h1>
                       <Rating
                         style={{ width: "90px" }}

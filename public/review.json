@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "1",
+    "parents": "Anik Mahamud",
+    "rating": 5,
+    "feedback": "Exceptional child care service! The website is user-friendly, providing comprehensive information about their programs. The staff is caring and professional, creating a nurturing environment for children. My child loves attending, and I have peace of mind knowing they're in good hands."
+  },
+  {
+    "_id": "2",
+    "parents": "Sayan Ahammed",
+    "rating": 4,
+    "feedback": "Outstanding child care website! Easy navigation, detailed program info, and impressive staff. My child thrives here, thanks to the caring environment and skilled educators. Grateful for the excellent service and peace of mind it provides!"
+  },
+  {
+    "_id": "3",
+    "parents": "Yeakub Ali",
+    "rating": 5,
+    "feedback": "Top-notch child care website! Seamless experience, informative content, and friendly staff. My child is happy and engaged, thanks to their dedicated care. A trustworthy place where children flourish. Highly satisfied and confident in their services!"
+  },
+  {
+    "_id": "4",
+    "parents": "Monirul islam",
+    "rating": 5,
+    "feedback": "Exceptional child care platform! The website is intuitive, offering a wealth of information about their programs. The staff is warm and dedicated, ensuring a nurturing atmosphere for kids. My child is thriving, and I'm grateful for the excellent care provided."
+  },
+  {
+    "_id": "5",
+    "parents": "Ashikur rahman",
+    "rating": 5,
+    "feedback": "Fantastic child care website! It's user-friendly, and packed with useful details about their services. The team is incredibly attentive and skilled, fostering a loving environment for children. Kudos to the entire team for their dedication!"
+  }
+]
