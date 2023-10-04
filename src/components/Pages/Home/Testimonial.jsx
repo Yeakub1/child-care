@@ -41,7 +41,7 @@ const Testimonial = () => {
                 key={review._id}
                 className="card w-60 h-80 md:w-[700px] bg-white shadow-xl"
               >
-                <h2 className="text-4xl md:text-7xl pl-8 pt-8 text-[#1BBF72]">
+                <h2 className="text-4xl md:text-7xl pl-8 pt-8 text-[#5522fa]">
                   <BiSolidQuoteLeft />
                 </h2>
                 <div className="px-6 md:px-10 ">
@@ -56,7 +56,7 @@ const Testimonial = () => {
                       className="w-10 h-10 md:w-14 md:h-14 rounded-full"
                       src="https://i.ibb.co/kMd7qVq/images.jpg"
                       alt="parants images"
-                      draggable='false'
+                      draggable="false"
                     />
                     <div>
                       <h1 className="text-sm font-bold mb-2">

@@ -22,7 +22,7 @@ const CountUps = () => {
                   onExit={() => setCountOn(false)}
                 >
                   {countOn && (
-                    <CountUp start={0} end={1100} duration={8} delay={0} />
+                    <CountUp start={0} end={950} duration={5} delay={0} />
                   )}
                   +
                 </ScrollTrigger>
@@ -43,7 +43,7 @@ const CountUps = () => {
                   onExit={() => setCountOn(false)}
                 >
                   {countOn && (
-                    <CountUp start={0} end={100} duration={8} delay={0} />
+                    <CountUp start={0} end={30} duration={5} delay={0} />
                   )}
                   +
                 </ScrollTrigger>
@@ -64,7 +64,7 @@ const CountUps = () => {
                   onExit={() => setCountOn(false)}
                 >
                   {countOn && (
-                    <CountUp start={0} end={50} duration={8} delay={0} />
+                    <CountUp start={0} end={23} duration={5} delay={0} />
                   )}
                   +
                 </ScrollTrigger>

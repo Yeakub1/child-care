@@ -4,7 +4,7 @@ import image from "../../../assets/images/we-are.jpg";
 
 const WhoWeAre = () => {
   return (
-    <div className="max-w-screen-xl px-5 mx-auto my-20">
+    <div className="max-w-screen-xl px-5 mx-auto mt-28 my-20">
       <div className="grid md:grid-cols-2 gap-10 items-center">
         {/* text */}
         <div className="">

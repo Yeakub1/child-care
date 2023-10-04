@@ -9,8 +9,8 @@ const Activities = () => {
     <div className="max-w-screen-xl px-5 mx-auto my-20">
       <div className="grid md:grid-cols-2 ">
         <div className="">
-          <h1 className="text-5xl font-semibold">The Great Way to</h1>
-          <h1 className="text-5xl font-semibold">Celebrate a Birthday</h1>
+          <h1 className="md:text-5xl text-3xl font-semibold">The Great Way to</h1>
+          <h1 className="md:text-5xl text-3xl font-semibold">Celebrate a Birthday</h1>
           <p className="my-10 text-lg md:w-10/12">
             Want to make a special gift to your child? Looking for a place to
             let the kids do whatever they want, but do no want to worry every
@@ -18,15 +18,15 @@ const Activities = () => {
           </p>
           <div className="grid grid-cols-3 justify-center items-center">
             <div className="w-1/2">
-              <HiCake className="text-7xl mx-auto" />
+              <HiCake className="text-7xl mx-auto text-blue-500" />
               <p className="text-center">Customized for You!</p>
             </div>
             <div className="w-7/12">
-              <FaUsers className="text-7xl mx-auto" />
+              <FaUsers className="text-7xl mx-auto text-yellow-500" />
               <p className="text-center">In a 100% Private Space</p>
             </div>
             <div className="w-1/2">
-              <IoBalloonSharp className="text-7xl mx-auto" />
+              <IoBalloonSharp className="text-7xl mx-auto text-red-600" />
               <p className="text-center">Easy, Fast, Fun</p>
             </div>
           </div>

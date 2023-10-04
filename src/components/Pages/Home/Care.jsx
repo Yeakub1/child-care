@@ -9,6 +9,7 @@ import {
   FaDribbble,
 } from "react-icons/fa";
 import { SiYoutubemusic } from "react-icons/si";
+import { PiBowlFood } from "react-icons/pi";
 // aso animation
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -82,7 +83,7 @@ const Care = () => {
 
         <div className="flex items-center gap-5" data-aos="fade-up">
           <div className="text-2xl App-logo bg-[#42238C] rounded-full p-5 text-white">
-            <SiYoutubemusic />
+            <PiBowlFood />
           </div>
           <h1 className="text-xl font-bold">Meals Provided</h1>
         </div>
